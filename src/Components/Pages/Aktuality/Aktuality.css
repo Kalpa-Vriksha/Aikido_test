@@ -1,0 +1,91 @@
+
+/*-------------------Aktuality-------------------*/
+
+.aktualita_header {
+    /* background: rgb(56, 56, 56); */
+    /* rgb(97, 159, 195) */
+    /* background: linear-gradient(rgb(150, 180, 250), rgb(97, 159, 195));
+    background: rgb(150, 180, 250);
+    background: rgb(157, 88, 105);
+    background: linear-gradient(rgb(157, 88, 105), rgb(80, 60, 60)); */
+    background: rgb(120, 155, 220);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* font-size: 16px; */
+}
+
+.aktualita_link {
+    text-decoration: none;
+}
+
+.aktualita_text {
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 15px;
+    /* padding-top: 15px; */
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid 1px rgb(221,221,221);
+    background: rgb(250,250,250);
+    background: linear-gradient(rgb(240,240,240) 0%, rgb(255,255,255) 20%);
+    font-size: 15px;
+}
+
+/*-------------------Pagination-------------------*/
+
+.pagination_buttons {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Displays items in a row */
+    margin-bottom: 20px;
+}
+
+.pagination_buttons li {
+    height: 25px; /* Height and width are specified to get rid of jumping whole pagination when user hover over and the font size changes */
+    width: 35px; /* WE NEED AT LEAST 40PX TO SUPPORT TOUCH DISPLAYS */     
+    display: flex; 
+    justify-content: center; /* Aligns item to center of width and height */
+}
+
+.pagination_buttons a {
+    padding: 10px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+
+
+
+.pagination_buttons a:hover {
+    font-size: 20px;
+}
+
+.material-icons:hover {
+    font-size: 28px;
+}
+
+
+
+/* .pagination_disabled {
+    color: rgb(179, 179, 179);
+    font-size: 10px;
+} */
+
+.pagination_disabled a {
+    color: rgb(179, 179, 179);
+    font-size: 10px;
+}
+
+.pagination_disabled a:hover {
+    font-size: 2px;
+}
+
+
+
+.pagination_active {
+    display: flex;
+    align-items: center; /* Lifts active page number UP */
+    font-size: 20px;
+}
